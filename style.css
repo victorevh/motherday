@@ -1,0 +1,92 @@
+:root {
+  --blue-gradient: linear-gradient(#3cb8dd 0%, #0087fe 40%);
+  --name-color: #838383;
+  --text-color: #eeeeee;
+  --background: white;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  padding: 8px 12px;
+  background: var(--background);
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.line {
+  display: flex;
+  justify-content: left;
+  align-items: flex-end;
+}
+
+#root > .line:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+.line .profile {
+  border-radius: 50%;
+  width: 48px;
+  margin-right: 8px;
+  z-index: 1;
+}
+
+.line .content {
+  position: relative;
+  background: var(--blue-gradient);
+  color: var(--text-color);
+  padding: 12px 12px;
+  min-width: 80px;
+  max-width: 75%;
+  border-radius: 20px;
+  line-height: 1.25;
+  word-wrap: break-word;
+  margin-bottom: 12px;
+}
+
+.line .content::before, .line .content::after {
+  height: 24px;
+  content: "";
+  height: 1rem;
+  position: absolute;
+  width: 24px;
+  bottom: 2px;
+  height: calc(100% - 20px);
+  z-index: -1;
+}
+
+.line .content::after {
+  background-color: var(--background);
+  border-bottom-right-radius: 4px;
+  left: -8px;
+  width: 8px;
+}
+
+.message {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.message .name {
+  color: var(--name-color);
+  margin: 0 0 2px 8px;
+}
+
+.message .content::before {
+  --size: 12px;
+  background: var(--blue-gradient);
+  border-bottom-right-radius: 6px;
+  left: calc(6px - var(--size));
+  width: var(--size);
+}
