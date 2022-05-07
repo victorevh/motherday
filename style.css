@@ -90,3 +90,7 @@ body {
   left: calc(6px - var(--size));
   width: var(--size);
 }
+
+.content img {
+  width: 100%;
+}
