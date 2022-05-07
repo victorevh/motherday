@@ -68,10 +68,11 @@ users.forEach((user, index) => {
     runned = true;
 })
 
+
 function photo2() {
     const text = document.getElementById('msg');
     const img = document.createElement('img');
-    const img1 = img.src='./assets/victor1.jpg'
+    const img1 = img.src='./assets/victor.jpg'
     text.appendChild(img);
 }
 
