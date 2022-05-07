@@ -26,12 +26,20 @@ const users = [
         content: "Jó ti desejo um dias das mães  maravilhoso cheio de muito amor",
     },
     {
+        name: "Joselia Oliveira",
+        content: "Feliz dia das mães, que deus continue te abençoando, amo você!.",
+    },
+    {
         name: "Zé Erivaldo",
         content: "Jô, Estou passando para lhe desejar um feliz dia das mães minha querida irmã,você que é irmã,amiga,mãe e uma grande mulher. Lhe desejo que Deus lhe abençoe sempre e continue iluminando essa mulher especial que você é. Feliz diz das mães com chuvas de graça do nosso senhor Jesus Cristo,que o divino espirito santo reine em seu coração e sua vida. Amo você .",
     },
     {
         name: "Beguinha Oliveira",
         content: "Nada mais contraditório do q ser mulher... <br> <br>Mulher q pensa com o coração, age pela emoção e vence pelo amor. <br>Q vive milhões de emoções num só dia e transmite cada uma delas num único olhar. <br> <br>Quando olhamos pra nossos filhos, es uma mãe guerreira, cheia de luz ,q Deus te ilumine todos os dias...<br> <br>FELIZ DIA DAS MÃES MINHA IRMÃ...<br> <br>BJS <br> <br>Beguinha .",
+    },
+    {
+        name: "Lourdes Oliveira",
+        content: "Parabens minha irmã por esse dia tão lindo que e o dia dais mães é. A palavra mais linda do univeso vc e uma rosa que nasceu no meu jardim parabéns mamãe ❤❤❤",
     },
     {
         name: "Nalva Oliveira",
